@@ -13,5 +13,5 @@ This .NET solution manages Truck Plans, including:
 - `TruckPlan`: REST API for for main logic
 
 ## Getting Started
-1. Build the solution: `dotnet build TruckPlanSolution.sln`
-2. Run the app: `dotnet run --project TruckPlan.App/TruckPlan.csproj`
+1. Build the solution: `dotnet build TruckPlan.sln`
+2. Run the app: `dotnet run --project TruckPlan/TruckPlan.csproj`
