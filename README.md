@@ -4,12 +4,14 @@ This .NET solution manages Truck Plans, including:
 - Domain models for drivers, trucks, GPS positions, and truck plans
 - Distance calculation for a TruckPlan
 - Country lookup from coordinates (external API)
-- Query: kilometers driven by drivers over 50 in Germany in February 2018
+- Missing : Persistence layer
+
 
 ## Projects
-- `TruckPlan.Domain`: Class library for domain models
-- `TruckPlan.App`: Console application for main logic
+- `GeoLocationProviderAPI`: Placeholder REST API for an external service provide
+- `Model`: Class library for domain models
+- `TruckPlan`: REST API for for main logic
 
 ## Getting Started
 1. Build the solution: `dotnet build TruckPlanSolution.sln`
-2. Run the app: `dotnet run --project TruckPlan.App/TruckPlan.App.csproj`
+2. Run the app: `dotnet run --project TruckPlan.App/TruckPlan.csproj`
