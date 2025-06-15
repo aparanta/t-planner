@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Model\Model.csproj" />
-    <ProjectReference Include="..\TruckPlanner\TruckPlanner.csproj" />
+    <ProjectReference Include="..\TruckPlan\TruckPlan.csproj" />
   </ItemGroup>
 
   <ItemGroup>
