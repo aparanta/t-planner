@@ -39,7 +39,7 @@ namespace TruckPlanner.Controllers
 
             return Ok(new DistanceResponse { DistanceKm = totalDistance });
         }
-
+        // Placeholder, logic can be replaced with a more accurate implementation or API call
         // Haversine formula to calculate distance between two GPS points in kilometers
         private static double HaversineDistance(double lat1, double lon1, double lat2, double lon2)
         {
