@@ -4,10 +4,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Model;
 using System;
 using System.Collections.Generic;
-using TruckPlanner.Controllers;
-using TruckPlanner.DTO;
+using TruckPlanManager.Controllers;
+using TruckPlanManager.DTO;
 
-namespace TruckPlanner.Tests.Controllers
+namespace TruckPlanManager.Tests.Controllers
 {
     [TestClass]
     public class TruckPlanControllerTests

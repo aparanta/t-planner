@@ -1,4 +1,4 @@
-namespace TruckPlanner.DTO;
+namespace TruckPlanManager.DTO;
 
 /// <summary>
 /// Represents the response containing the calculated distance in kilometers.

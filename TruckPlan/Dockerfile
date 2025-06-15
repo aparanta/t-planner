@@ -12,8 +12,8 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["TruckPlanner/TruckPlanner.csproj", "TruckPlanner/"]
-RUN dotnet restore "./TruckPlanner/TruckPlanner.csproj"
+COPY ["TruckPlan/TruckPlan.csproj", "TruckPlan/"]
+RUN dotnet restore "./TruckPlan/TruckPlan.csproj"
 COPY . .
 WORKDIR "/src/TruckPlanner"
 RUN dotnet build "./TruckPlanner.csproj" -c $BUILD_CONFIGURATION -o /app/build
