@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLocationProviderAPI", "G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{338FF980-B166-7C68-426B-3485897FBD8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckPlanner", "TruckPlanner\TruckPlanner.csproj", "{AA80A9F3-4DD6-4EAC-BE75-6C6B3559CB54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckPlan", "TruckPlanner\TruckPlan.csproj", "{AA80A9F3-4DD6-4EAC-BE75-6C6B3559CB54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckPlanner.Tests", "TruckPlanner.Tests\TruckPlanner.Tests.csproj", "{D57F500D-88AB-D4BC-480B-B4E31304B8B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckPlan.Tests", "TruckPlanner.Tests\TruckPlan.Tests.csproj", "{D57F500D-88AB-D4BC-480B-B4E31304B8B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
