@@ -4,6 +4,8 @@ This .NET solution manages Truck Plans, including:
 - Domain models for drivers, trucks, GPS positions, and truck plans
 - Distance calculation for a TruckPlan
 - Country lookup from coordinates (external API)
+- Missing: : Function "How many kilometers did
+drivers over the age of 50 drive in Germany in February 2018?"
 - Missing : Persistence layer
 - Missing: UI
 
